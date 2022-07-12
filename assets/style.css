@@ -1,0 +1,61 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial;
+    margin: 0;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 2%;
+}
+
+#header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background: #70AFCE;
+    color: #a5def1;
+}
+
+#about {
+    display: flex;
+    width: 100%;
+    height: 300px;
+    padding: 10px;
+    margin: 5px;
+    background: #70afce;
+    color: black;
+}
+
+#app-container {
+    flex: 1 0 0;
+    padding: 5px;
+    margin: 5px;
+    width: 100%;
+}
+
+#app-container header {
+    padding: 20px;
+    background: #70afce;
+    color: blue;
+}
+
+#app-container img {
+    width: 100%;
+    min-width: none;
+}
+
+.app {
+    width: 30%;
+    height: 30%;
+    float: left;
+}
+
+#contact {
+    float: left;
+    font-size: large;
+}
