@@ -1,10 +1,29 @@
-.bigDivs {
-    background-color: #7bdff2;
+#aboutImg {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 33%;
+  }
+#about {
+    width: 33%;
+    padding-bottom: 50px;
+
 }
 
+.app {
+    width: 33%;
+    display: block;
+    margin-right: auto;
+    padding-bottom: 50px;
 
+}
 
-
+.appImg {
+    width: 33%;
+    display: block;
+    margin-right: auto;
+    padding-bottom: 50px;
+}
 /* * {
     box-sizing: border-box;
 }
