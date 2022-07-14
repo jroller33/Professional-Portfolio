@@ -1,30 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
 
-    <head>
-        <title>My Portfolio</title>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
-        
-        <script src="https://cdn.tailwindcss.com"></script>                     <!-- // Tailwind CDN -->
-        <link rel="stylesheet" type="text/css" href="./assets/style.css">
-    </head>
+<head>
+    <title>My Portfolio</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <body>
-        <div id="headerDiv">
+    <script src="https://cdn.tailwindcss.com"></script> <!-- // Tailwind CDN -->
+    <link rel="stylesheet" type="text/css" href="./assets/style.css">
+    <title>Professional Portfolio</title>
+</head>
+
+<body>
+    <div id="mainDiv" class="grid place-items-center">
+        <div id="headerDiv"
+            class="bigDivs mb-8 grid place-items-center w-3/4 rounded-lg px-6 py-8 ring-1 ring-slate-900/5 shadow-2xl">
+
             <div id="headerBody"></div>
             <div id="headerNavBar"></div>
         </div>
 
-        <div id="aboutDiv">
+        <div id="aboutDiv"
+            class="bigDivs mb-8 grid place-items-center w-3/4 rounded-lg px-6 py-8 ring-1 ring-slate-900/5 shadow-2xl">
+
             <div id="aboutHeader"></div>
             <div id="aboutBody"></div>
         </div>
 
-        <div id="projectsDiv">
+        <div id="projectsDiv"
+            class="bigDivs mb-8 grid place-items-center w-3/4 rounded-lg px-6 py-8 ring-1 ring-slate-900/5 shadow-2xl">
+
             <div id="projectsHeader"></div>
-            
-            <div id="projectsBody">
+
+            <div id="projectsBody"
+                class="bigDivs mb-8 grid place-items-center w-3/4 rounded-lg px-6 py-8 ring-1 ring-slate-900/5 shadow-2xl">
+
                 <div id="project1"></div>
                 <div id="project2"></div>
                 <div id="project3"></div>
@@ -33,13 +43,17 @@
             </div>
         </div>
 
-        <div id="contactDiv">
+        <div id="contactDiv"
+            class="bigDivs mb-8 grid place-items-center w-3/4 rounded-lg px-6 py-8 ring-1 ring-slate-900/5 shadow-2xl">
+
             <div id="contactHeader"></div>
             <div id="contactBody"></div>
         </div>
+    </div>
 
 
-        <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
-        <script src="./assets/script.js"></script>
-    </body>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="./assets/script.js"></script>
+</body>
+
 </html>
